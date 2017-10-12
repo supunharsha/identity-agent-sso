@@ -119,6 +119,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk15on</artifactId>
+                <version>${bcprov-jdk15on.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.openid4java</groupId>
                 <artifactId>openid4java</artifactId>
                 <version>${openid4java.version}</version>
@@ -291,6 +296,7 @@
         <carbon.kernel.package.import.version.range>[4.4.0, 5.0.0)</carbon.kernel.package.import.version.range>
         <carbon.user.api.imp.pkg.version.range>[1.0.1, 2.0.0)</carbon.user.api.imp.pkg.version.range>
         <commons-collections.wso2.osgi.version.range>[3.2.0,4.0.0)</commons-collections.wso2.osgi.version.range>
+        <bcprov-jdk15on.version>1.52</bcprov-jdk15on.version>
     </properties>
 
     <modules>
